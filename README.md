@@ -1,4 +1,4 @@
-## Administración de la información del personal
+# Administración de la información del personal
 #### Modelo Entidad Relación 
 ##### Diagrama 1. *Modelo (ER)*
 
@@ -6,7 +6,7 @@
 
 ###### Fuente: Elaboración propia en Access
 
-# Lógica del Modelo (ER) 
+## Lógica del Modelo (ER) 
 
 ### Tabla Actividad
 
