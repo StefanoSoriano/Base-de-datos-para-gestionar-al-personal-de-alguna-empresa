@@ -1,6 +1,6 @@
-## Gestión del personal
+## Administración de la información del personal
 #### Modelo Entidad Relación 
-#### Diagrama 1. *Modelo (ER)*
+##### Diagrama 1. *Modelo (ER)*
 
 <img src="https://github.com/StefanoSoriano/Base-de-datos-para-gestionar-al-personal-de-alguna-empresa/blob/master/Imagen/Entidad%20-%20Relaci%C3%B3n.jpg" alt="drawing"/>
 
