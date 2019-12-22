@@ -1,4 +1,4 @@
--- Base de datos relacional para la administración de personal
+-- Script para generar la Base de Datos 
 
 CREATE TABLE [dbo].[Actividad] (
     [ActividadId]             NVARCHAR (255) NOT NULL,
