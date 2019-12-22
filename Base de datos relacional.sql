@@ -273,6 +273,3 @@ CREATE TABLE [dbo].[Persona] (
 
 GO
 
-
-
-GO
