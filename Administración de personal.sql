@@ -3,12 +3,7 @@
  / Script para generar la Base de Datos /
 /--------------------------------------/
                                      */
-
-USE master;
-GO
-
-DROP DATABASE Personal;
-GO
+                                     
 
 CREATE DATABASE Personal;
 GO
@@ -450,7 +445,7 @@ FOREIGN KEY (CaracteristicaEstructuraOrgId)
 REFERENCES EstructuraOrganica (EstructuraOrgId)
 
 PRINT '------------------------
-  BASE DE DATOS CREADA  ';
+  BASE DE DATOS CREADA';
 GO
 
 
