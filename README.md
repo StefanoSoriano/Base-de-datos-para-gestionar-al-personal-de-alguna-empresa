@@ -7,6 +7,7 @@
 
 ## Lógica del Modelo (ER) 
 
+### Tabla Actividad
 
 | Campo  | Tipo de dato  | Característica  |
 | -----  | ------------  | --------------  |
