@@ -2,7 +2,7 @@
 #### Modelo Entidad Relación (ER)
 ##### Diagrama 1. *Modelo (ER)*
 
-![](https://github.com/StefanoSoriano/Base-de-datos-para-gestionar-al-personal-de-alguna-empresa/blob/master/Imagen/Entidad%20-%20Relaci%C3%B3n.jpg)
+![MER.jpg](https://github.com/StefanoSoriano/Base-de-datos-para-gestionar-al-personal-de-alguna-empresa/blob/master/Imagen/Entidad%20-%20Relaci%C3%B3n.jpg)
 ###### Fuente: Elaboración propia en Microsoft SQL Server Management Studio
 
 ## Lógica del Modelo (ER) 
