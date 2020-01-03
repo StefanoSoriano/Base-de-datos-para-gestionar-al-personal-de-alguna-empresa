@@ -222,6 +222,7 @@
 
 ## Script en T-SQL para crear la base de datos relacional
 
+#### Creando tablas dentro de la base de datos "Personal"
 
 ```sql
 CREATE DATABASE Personal;
@@ -502,8 +503,11 @@ CREATE TABLE Subperfil (
     PRIMARY KEY CLUSTERED (SubperfilId ASC)
 );
 GO
+```
+ 
+#### Creando llaves foráneas
 
---  Creando llaves foráneas
+```sql
 
 --  Tabla Actividad
 ALTER TABLE Actividad
@@ -602,7 +606,5 @@ ADD CONSTRAINT FK_Caracteristica_EstructuraOrganica FOREIGN KEY (CaracteristicaE
 PRINT '------------------------
   BASE DE DATOS CREADA';
 GO
-
-
 
 ```
