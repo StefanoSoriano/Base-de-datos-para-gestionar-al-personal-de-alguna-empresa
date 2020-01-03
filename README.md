@@ -11,25 +11,25 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PerfilId  | Campo numérico.    | Identificador del perfil.    | 
+| Perfil Id | Campo numérico.    | Identificador del perfil.    | 
 | Descripción de la actividad  | Campo de texto largo.    | Muestra la descripción de la actividad de la persona.    |
 | Lugar de trabajo  | Campo de texto corto.    | Muestra la ubicación del lugar de trabajo de la persona.    |
-| ÓrganoId  | Campo numérico.    | Identificador del órgano.    |
-| Estructura orgánicaId  | Campo numérico.    | Identificador de la estructura orgánica.    |
-| OrganizaciónId  | Campo numérico.    | Identificador de la organización.    |
+| Órgano Id | Campo numérico.    | Identificador del órgano.    |
+| Estructura orgánica Id | Campo numérico.    | Identificador de la estructura orgánica.    |
+| Organización Id | Campo numérico.    | Identificador de la organización.    |
 
 
 ### Tabla Actividad del subperfil
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| SubperfilId  | Campo numérico.    | Identificador del subperfil.    |
-| PerfilId  | Campo numérico.    | Identificador de la estructura orgánica.    |
+| Subperfil Id | Campo numérico.    | Identificador del subperfil.    |
+| Perfil Id | Campo numérico.    | Identificador de la estructura orgánica.    |
 | Descripción de la actividad del subperfil  | Campo de texto largo.    | Describe la actividad o actividades que realiza el subperfil en cuestión.    |
 | Lugar de trabajo  | Campo de texto largo.    | Describe el lugar de trabajo donde realiza las actividades la persona.    |
-| ÓrganoId  | Campo numérico.    | Identificador del órgano.    |
-| Estructura orgánicaId  | Campo numérico.    | Identificador de la estructura orgánica.    |
-| OrganizaciónId  | Campo numérico.    | Identificador de la organización.    |
+| Órgano Id | Campo numérico.    | Identificador del órgano.    |
+| Estructura orgánica Id | Campo numérico.    | Identificador de la estructura orgánica.    |
+| Organización Id | Campo numérico.    | Identificador de la organización.    |
 
 ### Tabla Asentamiento humano
 
@@ -56,7 +56,7 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PersonaId  | Campo numérico.    | Muestra el identificador de la persona.    |
+| Persona Id | Campo numérico.    | Muestra el identificador de la persona.    |
 | Nombre del beneficiario  | Campo de texto corto.    | Muestra el nombre de los beneficiarios.    |
 | Domicilio  | Campo de texto corto.    | Muestra el domicilio de los beneficiarios
 | Teléfono  | Campo numérico.    | Muestra el número de teléfono de los beneficiarios
@@ -66,7 +66,7 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PersonaId  | Campo numérico.    | Muestra el identificador de la persona.    |
+| Persona Id | Campo numérico.    | Muestra el identificador de la persona.    |
 | Nombre de la capacitación  | Campo de texto corto.    | Muestra el nombre de la capacitación o capacitaciones que ha tomado la persona.    |
 | Empresa  | Campo de texto corto.    | Muestra el nombre de la empresa donde la persona realizó la capacitación o las capacitaciones.    |
 | Tiempo  | Campo de texto corto.    | Muestra la duración de cada capacitación.    |
@@ -75,17 +75,17 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PerfilId  | Campo numérico.    | Muestra el identificador del perfil.    |
+| Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 | Descripción de las Descripcións  | Campo de texto largo.    | Muestra la descripción de las Descripcións del perfil.    |
-| ÓrganoId  | Campo numérico.    | Muestra el identificador del órgano.    |
-| Estructura orgánicaId  | Campo numérico.    | Muestra el identificador de la estructura orgánica.    |
-| OrganizaciónId  | Campo numérico.    | Muestra el identificador de la organización.    |
+| Órgano Id | Campo numérico.    | Muestra el identificador del órgano.    |
+| Estructura orgánica Id | Campo numérico.    | Muestra el identificador de la estructura orgánica.    |
+| Organización Id | Campo numérico.    | Muestra el identificador de la organización.    |
 
 ### Tabla Conocimiento habilidad
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PersonaId  | Campo numérico.    | Muestra el identificador de la persona.    |
+| Persona Id | Campo numérico.    | Muestra el identificador de la persona.    |
 | Sistema operativo  | Campo de texto corto.    | Muestra los sistemas operativos que maneja la persona.    |
 | Lenguaje de programación  | Campo de texto corto.    | Muestra los lenguajes de programación que conoce la persona.    |
 | Base de datos  | Campo de texto corto.    | Muestra las bases de datos que maneja la persona.    |
@@ -98,7 +98,7 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PersonaId  | Campo numérico.    | Muestra el identificador de la persona.    |
+| Persona Id | Campo numérico.    | Muestra el identificador de la persona.    |
 | Tipo de documento  | Campo de texto corto.    | Muestra el tipo de documento que entregó la persona al momento de afiliarse.    |
 | Documento adjunto  | Campo de tipo attach.    | Muestra los documentos afiliatorios adjunto en la base de datos.    |
 
@@ -106,14 +106,14 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| OrganizaciónId  | Campo numérico.    | Muestra el identificador de la organización.    |
+| Organización Id | Campo numérico.    | Muestra el identificador de la organización.    |
 | Nombre  | Campo de texto corto.    | Muestra el nombre de la estructura orgánica.    |
 
 ### Tabla Experiencia laboral
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PersonaId  | Campo numérico.    | Muestra el identificador de la persona.    |
+| Persona Id | Campo numérico.    | Muestra el identificador de la persona.    |
 | Periodo  | Campo de texto corto.    | Muestra el periodo de trabajo de la persona.    |
 | Empresa o institución  | Campo de texto corto.    | Muestra la empresa o institución donde la persona ha trabajado.    |
 | Localidad  | Campo de texto corto.    | Muestra la localidad en la cual la persona desempeño sus labores.    |
@@ -133,14 +133,14 @@
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
 | Nombre  | Campo de texto corto.    | Muestra el nombre de la organización.    |
-| PerfilId  | Campo numérico.    | Muestra el identificador del perfil.    |
+| Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 
 ### Tabla Órgano 
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| Estructura orgánicaId  | Campo numérico.    | Muestra el identificador de la estructura orgánica.    |
-| OrganizaciónId  | Campo numérico.    | Muestra el identificador de la organización.    |
+| Estructura orgánica Id | Campo numérico.    | Muestra el identificador de la estructura orgánica.    |
+| Organización Id | Campo numérico.    | Muestra el identificador de la organización.    |
 | Nombre del órgano  | Campo de texto corto.    | Muestra el nombre del órgano.    |
  
 
@@ -148,10 +148,10 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| ÓrganoId  | Campo numérico.    | Muestra el identificador del órgano.    |
-| Estructura orgánicaId  | Campo numérico.    | Muestra el identificador de la estructura orgánica.    |
-| OrganizaciónId  | Campo numérico.    | Muestra el identificador de la organización.    |
-| PerfilId  | Campo numérico.    | Muestra el identificador del perfil.    |
+| Órgano Id | Campo numérico.    | Muestra el identificador del órgano.    |
+| Estructura orgánica Id | Campo numérico.    | Muestra el identificador de la estructura orgánica.    |
+| Organización Id | Campo numérico.    | Muestra el identificador de la organización.    |
+| Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 | Anexo  | Campo de texto corto.    | Muestra el anexo del órgano por perfil.    |
 | Cantidad  | Campo numérico.    | Muestra la cantidad.    |
 
@@ -190,15 +190,15 @@
 | Inicio del contrato  | Campo de tipo fecha.    | Muestra la fecha de inicio del contrato de la persona, en formato mm/dd/aaaa.    |
 | Fin del contrato  | Campo de tipo fecha.    | Muestra la fecha del contrato de la persona, en formato mm/dd/aaaa.    |
 | Fecha de baja  | Campo de tipo fecha.    | Muestra la fecha de baja de la persona, en formato mm/dd/aaaa.    |
-| PerfilId  | Campo numérico.    | Muestra el identificador del perfil.    |
+| Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 | Proyecto  | Campo de texto corto.    | Muestra el nombre proyecto en el que labora la persona.    |
 | Ingreso bruto  | Campo de tipo moneda.    | Muestra el ingreso bruto de la persona.    |
 | Días laborados  | Campo numérico.    | Muestra los días que laboró la persona.    |
 | CLABE interbancaria  | Campo de texto corto.    | Muestra la CLABE interbancaria de la persona.    |
 | Estatus  | Campo de texto corto.    | Muestra el estatus de la persona en la institución.    |
-| BancoId  | Campo numérico.    | Muestra el identificador del banco.    |
-| OrganizaciónId  | Campo numérico.    | Muestra el identificador de la organización.    |
-| Grado de estudioId  | Campo numérico.    | Muestra el identificador del grado de estudio de la persona.    |
+| Banco Id | Campo numérico.    | Muestra el identificador del banco.    |
+| Organización Id | Campo numérico.    | Muestra el identificador de la organización.    |
+| Grado de estudio Id | Campo numérico.    | Muestra el identificador del grado de estudio de la persona.    |
 | NSS  | Campo de texto corto.    | Muestra el Número de Seguro Social (NSS), de la persona.    |
 | Crédito infonavit  | Campo de texto corto.    | Muestra si la persona cuenta con crédito infonavit.    |
 | Adeudo infonacot  | Campo de texto corto.    | Muestra si a persona cuenta con crédito infonacot.    |
@@ -215,9 +215,8 @@
 
 | Campo  | Tipo de dato  | Descripción  |
 | -----  | ------------  | --------------  |
-| PerfilId  | Campo numérico.    | Muestra el identificador del perfil.    |
+| Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 | Descripción del subperfil  | Campo de texto corto.    | Muestra la descripción del subperfil.    |
-
 
 ## Script en T-SQL para crear la base de datos relacional
 
