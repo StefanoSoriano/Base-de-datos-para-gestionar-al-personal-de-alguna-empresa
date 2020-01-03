@@ -182,10 +182,12 @@ __Observaciones:__ Campo de texto corto. Muestra las observaciones con relación
 __Perfil:__ Campo numérico. Muestra el identificador del perfil.
 __Descripción del subperfil:__ Campo de texto corto. Muestra la descripción del subperfil.
 
-## Script para crear la base de datos
+# ---------------------------------------------------------------------------------
+## Script en T-SQL para crear la base de datos relacional
+# ---------------------------------------------------------------------------------
 
 ```sql
-  CREATE DATABASE Personal;
+CREATE DATABASE Personal;
 GO
 
 USE Personal;
