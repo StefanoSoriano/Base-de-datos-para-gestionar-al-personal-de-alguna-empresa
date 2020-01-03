@@ -289,160 +289,99 @@ GO
 --  Tabla Actividad
 ALTER TABLE Actividad
 ADD CONSTRAINT FK_Actividad_Perfil 
-FOREIGN KEY (ActividadPerfilId) 
-REFERENCES Perfil (PerfilId)
+--  Tabla Actividad
 ALTER TABLE Actividad
-ADD CONSTRAINT FK_Actividad_Organizacion
-FOREIGN KEY (ActividadOrganizacionId)
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_Actividad_Perfil FOREIGN KEY (ActividadPerfilId) REFERENCES Perfil (PerfilId)
 ALTER TABLE Actividad
-ADD CONSTRAINT FK_Actividad_Organo
-FOREIGN KEY (ActividadOrganoId)
-REFERENCES Organo (OrganoId)
+ADD CONSTRAINT FK_Actividad_Organizacion FOREIGN KEY (ActividadOrganizacionId) REFERENCES Organizacion (OrganizacionId)
 ALTER TABLE Actividad
-ADD CONSTRAINT FK_Actividad_EstructuraOrganica
-FOREIGN KEY (ActividadEstructuraOrgId)
-REFERENCES EstructuraOrganica (EstructuraOrgId)
+ADD CONSTRAINT FK_Actividad_Organo FOREIGN KEY (ActividadOrganoId) REFERENCES Organo (OrganoId)
+ALTER TABLE Actividad
+ADD CONSTRAINT FK_Actividad_EstructuraOrganica FOREIGN KEY (ActividadEstructuraOrgId) REFERENCES EstructuraOrganica (EstructuraOrgId)
 
 --  Tabla Actividad Subperfil
 ALTER TABLE ActividadSubperfil
-ADD CONSTRAINT FK_ActividadSubperfil_Subperfil 
-FOREIGN KEY (ActividadSubperfilSubperfilId) 
-REFERENCES Subperfil (SubperfilId)
+ADD CONSTRAINT FK_ActividadSubperfil_Subperfil FOREIGN KEY (ActividadSubperfilSubperfilId) REFERENCES Subperfil (SubperfilId)
 ALTER TABLE ActividadSubperfil
-ADD CONSTRAINT FK_ActividadSubperfil_Perfil 
-FOREIGN KEY (ActividadSubperfilPerfilId) 
-REFERENCES Perfil (PerfilId)
+ADD CONSTRAINT FK_ActividadSubperfil_Perfil FOREIGN KEY (ActividadSubperfilPerfilId) REFERENCES Perfil (PerfilId)
 ALTER TABLE ActividadSubperfil
-ADD CONSTRAINT FK_ActividadSubperfil_Organo 
-FOREIGN KEY (ActividadSubperfilOrganoId) 
-REFERENCES Organo (OrganoId)
+ADD CONSTRAINT FK_ActividadSubperfil_Organo FOREIGN KEY (ActividadSubperfilOrganoId) REFERENCES Organo (OrganoId)
 ALTER TABLE ActividadSubperfil
-ADD CONSTRAINT FK_ActividadSubperfil_EstructuraOrganica 
-FOREIGN KEY (ActividadSubperfilEstructuraOrgId) 
-REFERENCES EstructuraOrganica (EstructuraOrgId)
+ADD CONSTRAINT FK_ActividadSubperfil_EstructuraOrganica FOREIGN KEY (ActividadSubperfilEstructuraOrgId) REFERENCES EstructuraOrganica (EstructuraOrgId)
 ALTER TABLE ActividadSubperfil
-ADD CONSTRAINT FK_ActividadSubperfil_Organizacion 
-FOREIGN KEY (ActividadSubperfilOrganizacionId) 
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_ActividadSubperfil_Organizacion FOREIGN KEY (ActividadSubperfilOrganizacionId) REFERENCES Organizacion (OrganizacionId)
 
 --  Tabla Subperfil
 ALTER TABLE Subperfil
-ADD CONSTRAINT FK_Subperfil_Perfil 
-FOREIGN KEY (SubperfilPerfilId) 
-REFERENCES Perfil (PerfilId)
+ADD CONSTRAINT FK_Subperfil_Perfil FOREIGN KEY (SubperfilPerfilId) REFERENCES Perfil (PerfilId)
 
 --  Tabla Persona
 ALTER TABLE Persona
-ADD CONSTRAINT FK_Persona_Perfil 
-FOREIGN KEY (PerfilPersonaId) 
-REFERENCES Perfil (PerfilId)
+ADD CONSTRAINT FK_Persona_Perfil FOREIGN KEY (PerfilPersonaId) REFERENCES Perfil (PerfilId)
 ALTER TABLE Persona
-ADD CONSTRAINT FK_Persona_Organizacion
-FOREIGN KEY (OrganizacionPersonaId)
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_Persona_Organizacion FOREIGN KEY (OrganizacionPersonaId) REFERENCES Organizacion (OrganizacionId)
 ALTER TABLE Persona
-ADD CONSTRAINT FK_Persona_Banco
-FOREIGN KEY (BancoPersonaId)
-REFERENCES Banco (BancoClave)
+ADD CONSTRAINT FK_Persona_Banco FOREIGN KEY (BancoPersonaId) REFERENCES Banco (BancoClave)
 ALTER TABLE Persona
-ADD CONSTRAINT FK_Persona_GradoDeEstudiosPersona
-FOREIGN KEY (GradoEstudioPersonaId)
-REFERENCES GradoDeEstudiosPersona (GradoId)
+ADD CONSTRAINT FK_Persona_GradoDeEstudiosPersona FOREIGN KEY (GradoEstudioPersonaId) REFERENCES GradoDeEstudiosPersona (GradoId)
 
 --  Tabla Capacitación
-ALTER TABLE Capacitacion
-ADD CONSTRAINT FK_Capacitacion_Persona
-FOREIGN KEY (CapacitacionPersonaId) 
-REFERENCES Persona (IdPersona)
+ALTER TABLE Capacitacion 
+ADD CONSTRAINT FK_Capacitacion_Persona FOREIGN KEY (CapacitacionPersonaId) REFERENCES Persona (IdPersona)
 
 --  Tabla Experiencia Laboral
 ALTER TABLE ExperienciaLaboral
-ADD CONSTRAINT FK_ExperienciaLaboral_Persona
-FOREIGN KEY (ExperienciaLaboralPersonaId) 
-REFERENCES Persona (IdPersona)
+ADD CONSTRAINT FK_ExperienciaLaboral_Persona FOREIGN KEY (ExperienciaLaboralPersonaId) REFERENCES Persona (IdPersona)
 
 --  Tabla Conocimiento Habilidad
 ALTER TABLE ConocimientoHabilidad
-ADD CONSTRAINT FK_ConocimientoHabilidad_Persona
-FOREIGN KEY (ConocimientoHabilidadPersonaId) 
-REFERENCES Persona (IdPersona)
+ADD CONSTRAINT FK_ConocimientoHabilidad_Persona FOREIGN KEY (ConocimientoHabilidadPersonaId) REFERENCES Persona (IdPersona)
 
 --  Tabla Beneficiario
 ALTER TABLE Beneficiario
-ADD CONSTRAINT FK_Beneficiario_Persona
-FOREIGN KEY (BeneficiarioPersonaId) 
-REFERENCES Persona (IdPersona)
+ADD CONSTRAINT FK_Beneficiario_Persona FOREIGN KEY (BeneficiarioPersonaId) REFERENCES Persona (IdPersona)
 
 --  Tabla Documento
 ALTER TABLE Documento
-ADD CONSTRAINT FK_Documento_Persona
-FOREIGN KEY (DocumentoPersonaId) 
-REFERENCES Persona (IdPersona)
+ADD CONSTRAINT FK_Documento_Persona FOREIGN KEY (DocumentoPersonaId) REFERENCES Persona (IdPersona)
 
 --  Tabla Asentamiento Humano
 ALTER TABLE AsentamientoHumano
-ADD CONSTRAINT FK_AsentamientoHumano_Persona
-FOREIGN KEY (AsentamientoHumanoPersonaId) 
-REFERENCES Persona (IdPersona)
+ADD CONSTRAINT FK_AsentamientoHumano_Persona FOREIGN KEY (AsentamientoHumanoPersonaId) REFERENCES Persona (IdPersona)
 
 --  Tabla Organización
 ALTER TABLE Organizacion
-ADD CONSTRAINT FK_Organizacion_Perfil 
-FOREIGN KEY (OrganizacionPerfilId) 
-REFERENCES Perfil (PerfilId)
+ADD CONSTRAINT FK_Organizacion_Perfil FOREIGN KEY (OrganizacionPerfilId) REFERENCES Perfil (PerfilId)
 
 -- Tabla Organo por Perfil
 ALTER TABLE OrganoPorPerfil
-ADD CONSTRAINT FK_OrganoPorPerfil_Organizacion
-FOREIGN KEY (OrganoPorPerfilOrganizacionId) 
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_OrganoPorPerfil_Organizacion FOREIGN KEY (OrganoPorPerfilOrganizacionId) REFERENCES Organizacion (OrganizacionId)
 ALTER TABLE OrganoPorPerfil
-ADD CONSTRAINT FK_OrganoPorPerfil_Perfil
-FOREIGN KEY (OrganoPorPerfilPerfilId) 
-REFERENCES Perfil (PerfilId)
+ADD CONSTRAINT FK_OrganoPorPerfil_Perfil FOREIGN KEY (OrganoPorPerfilPerfilId) REFERENCES Perfil (PerfilId)
 ALTER TABLE OrganoPorPerfil
-ADD CONSTRAINT FK_OrganoPorPerfil_Organo
-FOREIGN KEY (OrganoPorPerfilOrganoId) 
-REFERENCES Organo (OrganoId)
+ADD CONSTRAINT FK_OrganoPorPerfil_Organo FOREIGN KEY (OrganoPorPerfilOrganoId) REFERENCES Organo (OrganoId)
 ALTER TABLE OrganoPorPerfil
-ADD CONSTRAINT FK_OrganoPorPerfil_EstructuraOrganica
-FOREIGN KEY (OrganoPorPerfilEstructuraOrgId) 
-REFERENCES EstructuraOrganica (EstructuraOrgId)
+ADD CONSTRAINT FK_OrganoPorPerfil_EstructuraOrganica FOREIGN KEY (OrganoPorPerfilEstructuraOrgId) REFERENCES EstructuraOrganica (EstructuraOrgId)
 
 --  Tabla Órgano
 ALTER TABLE Organo
-ADD CONSTRAINT FK_Organo_Organizacion
-FOREIGN KEY (OrganoOrganizacionId)
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_Organo_Organizacion FOREIGN KEY (OrganoOrganizacionId) REFERENCES Organizacion (OrganizacionId)
 ALTER TABLE Organo
-ADD CONSTRAINT FK_Organo_EstructuraOrganica
-FOREIGN KEY (OrganoEstructuraOrgId)
-REFERENCES EstructuraOrganica (EstructuraOrgId)
+ADD CONSTRAINT FK_Organo_EstructuraOrganica FOREIGN KEY (OrganoEstructuraOrgId) REFERENCES EstructuraOrganica (EstructuraOrgId)
 
 --  Tabla Estructura Orgánica
 ALTER TABLE EstructuraOrganica
-ADD CONSTRAINT FK_EstructuraOrganica_Organizacion
-FOREIGN KEY (EstructuraOrgOrganizacionId)
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_EstructuraOrganica_Organizacion FOREIGN KEY (EstructuraOrgOrganizacionId) REFERENCES Organizacion (OrganizacionId)
 
 --  Tabla Característica
 ALTER TABLE Caracteristica
-ADD CONSTRAINT FK_Caracteristica_Organizacion
-FOREIGN KEY (CaracteristicaOrganizacionId)
-REFERENCES Organizacion (OrganizacionId)
+ADD CONSTRAINT FK_Caracteristica_Organizacion FOREIGN KEY (CaracteristicaOrganizacionId) REFERENCES Organizacion (OrganizacionId)
 ALTER TABLE Caracteristica
-ADD CONSTRAINT FK_Caracteristica_Perfil
-FOREIGN KEY (CaracteristicaPerfilId)
-REFERENCES Perfil (PerfilId)
+ADD CONSTRAINT FK_Caracteristica_Perfil FOREIGN KEY (CaracteristicaPerfilId) REFERENCES Perfil (PerfilId)
 ALTER TABLE Caracteristica
-ADD CONSTRAINT FK_Caracteristica_Organo
-FOREIGN KEY (CaracteristicaOrganoId)
-REFERENCES Organo (OrganoId)
+ADD CONSTRAINT FK_Caracteristica_Organo FOREIGN KEY (CaracteristicaOrganoId) REFERENCES Organo (OrganoId)
 ALTER TABLE Caracteristica
-ADD CONSTRAINT FK_Caracteristica_EstructuraOrganica
-FOREIGN KEY (CaracteristicaEstructuraOrgId)
-REFERENCES EstructuraOrganica (EstructuraOrgId)
+ADD CONSTRAINT FK_Caracteristica_EstructuraOrganica FOREIGN KEY (CaracteristicaEstructuraOrgId) REFERENCES EstructuraOrganica (EstructuraOrgId)
 
 PRINT '------------------------
   BASE DE DATOS CREADA';
