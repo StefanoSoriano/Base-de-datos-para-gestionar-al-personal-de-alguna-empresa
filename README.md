@@ -2,8 +2,7 @@
 #### Modelo Entidad Relación (ER)
 ##### Diagrama 1. *Modelo (ER)*
 
-<img src="https://github.com/StefanoSoriano/Base-de-datos-para-gestionar-al-personal-de-alguna-empresa/blob/master/Imagen/Entidad%20-%20Relaci%C3%B3n.jpg" alt="drawing"/>
-
+![](https://github.com/StefanoSoriano/Base-de-datos-para-gestionar-al-personal-de-alguna-empresa/blob/master/Imagen/Entidad%20-%20Relaci%C3%B3n.jpg)
 ###### Fuente: Elaboración propia en Microsoft SQL Server Management Studio
 
 ## Lógica del Modelo (ER) 
@@ -182,6 +181,8 @@ __Observaciones:__ Campo de texto corto. Muestra las observaciones con relación
 
 __Perfil:__ Campo numérico. Muestra el identificador del perfil.
 __Descripción del subperfil:__ Campo de texto corto. Muestra la descripción del subperfil.
+
+## Script para crear la base de datos
 
 ```sql
    /*
