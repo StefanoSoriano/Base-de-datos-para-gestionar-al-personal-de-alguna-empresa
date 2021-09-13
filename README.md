@@ -11,7 +11,7 @@
 ![](https://github.com/StefanoSoriano/Base-de-datos-para-gestionar-al-personal-de-alguna-empresa/blob/master/Imagen/Entidad%20-%20Relaci%C3%B3n.jpg)
 ###### Fuente: Elaboración propia en Microsoft SQL Server Management Studio
 
-## Script T-SQL para crear la base de datos
+## Script T-SQL para crear la base de datos:
 
 #### Creando tablas dentro de la base de datos "Personal"
 
