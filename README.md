@@ -614,3 +614,9 @@ GO
 | Descripción del subperfil  | Campo de texto corto.    | Muestra la descripción del subperfil.    |
 
 
+##### Imagen 1. Fragmento de base de datos del personal en SharePoint (*lista de SharePoint*)
+
+<img src="https://github.com/StefanoSoriano/Base-de-datos-relacional-para-administrar-los-datos-del-personal-de-alguna-empresa/blob/master/Imagen/Fragmento%20de%20lista%20en%20SharePoint.jpg?raw=true"/>
+
+###### Fuente: Elaboración propia en Microsoft SharePoint con datos de *Base de datos relacional paraa administrar los datos del personal de alguna empresa*
+
