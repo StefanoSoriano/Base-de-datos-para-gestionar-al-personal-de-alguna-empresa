@@ -414,6 +414,13 @@ GO
 | Organización Id | Campo numérico.    | Identificador de la organización.    |
 
 
+##### Imagen 1. Fragmento de base de datos transformada a Lista de SharePoint (*Tabla Actividad*)
+
+<img src="https://github.com/StefanoSoriano/Base-de-datos-relacional-para-administrar-los-datos-del-personal-de-alguna-empresa/blob/master/Imagen/Fragmento%20de%20lista%20en%20SharePoint.jpg?raw=true"/>
+
+###### Fuente: Elaboración propia en Microsoft SharePoint con datos de *Base de datos relacional para administrar los datos del personal de alguna empresa*
+
+
 ### Tabla Actividad del subperfil
 
 | Campo  | Tipo de dato  | Descripción  |
@@ -613,10 +620,4 @@ GO
 | Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 | Descripción del subperfil  | Campo de texto corto.    | Muestra la descripción del subperfil.    |
 
-
-##### Imagen 1. Fragmento de base de datos transformada a Lista de SharePoint (*Tabla Actividad*)
-
-<img src="https://github.com/StefanoSoriano/Base-de-datos-relacional-para-administrar-los-datos-del-personal-de-alguna-empresa/blob/master/Imagen/Fragmento%20de%20lista%20en%20SharePoint.jpg?raw=true"/>
-
-###### Fuente: Elaboración propia en Microsoft SharePoint con datos de *Base de datos relacional para administrar los datos del personal de alguna empresa*
 
