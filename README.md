@@ -224,7 +224,7 @@
 | Perfil Id | Campo numérico.    | Muestra el identificador del perfil.    |
 | Descripción del subperfil  | Campo de texto corto.    | Muestra la descripción del subperfil.    |
 
-## Script en T-SQL para crear la base de datos relacional
+## Script en T-SQL para crear la base de datos
 
 #### Creando tablas dentro de la base de datos "Personal"
 
