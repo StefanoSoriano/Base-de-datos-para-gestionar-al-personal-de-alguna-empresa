@@ -1,4 +1,8 @@
 # Administración de la información del personal
+
+
+### Esta base de datos relacional se creó con la finalidad de subirse a un sitio de SharePoint y poder realizar "aplicaciones de negocio" a través de [Microsoft PowerApps](https://powerapps.microsoft.com/es-es/), también para que el área de recursos humanos pudiera realizar formatos de nómina del personal afiliado a la empresa.
+
 #### Modelo Entidad Relación (ER)
 ##### Diagrama 1. *Modelo (ER)*
 
