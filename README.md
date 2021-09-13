@@ -3,7 +3,7 @@
 
 ### Esta base de datos relacional se creó con la finalidad de subirse a un sitio de SharePoint y poder realizar "aplicaciones de negocio" a través de [Microsoft Power Apps](https://powerapps.microsoft.com/es-es/), también para que el área de recursos humanos pudiera realizar formatos de nómina del personal afiliado a la empresa.
 
-###### Desarrollado por: Soriano Urbán Jorge Stephano con la supervisión de García Cristerna José Luis.
+###### Desarrollado por: *Soriano Urbán Jorge Stephano* con la supervisión de *García Cristerna José Luis*.
 
 #### Modelo Entidad Relación (ER)
 ##### Diagrama 1. *Modelo (ER)*
